@@ -2,7 +2,7 @@
 
 Note:- The above pictures are the prototype 1 & 2 of the cubesat.
 
-# CUBESAT USING ARDUINIO 
+# CUBESAT USING ARDUINO 
 
 A Picosatellite is made using arduino development board with a open source architecture. The aim of the project is to replicate the working mechanism of a cubesat. 
 

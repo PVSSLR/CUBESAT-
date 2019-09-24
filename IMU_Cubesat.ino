@@ -114,7 +114,7 @@ void loop()
     rx_char = Serial.read();
     // we have to send data, as requested
     if (rx_char == '.'){
-      digitalWrite(13, HIGH);
+      digitalWrite(13, HIGH); 
       Serial.print(gx, 2);
       Serial.print(", ");
       Serial.print(gy, 2);

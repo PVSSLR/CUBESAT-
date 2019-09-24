@@ -38,8 +38,8 @@ The prerequsites are given below
  * opengl
  * matplotlib
  
- ### Deployment 
- ## A. To Visualize the movements  and to read sensor data 
+ ## Deployment 
+ ### A. To Visualize the movements  and to read sensor data 
   1. Connect the circuit for MPU-6050 and dht11 seperately.
   2. Connect the Arduino with Laptop/PC.
   3. Download or install all the required libraries for python and arduino.
@@ -53,14 +53,16 @@ The prerequsites are given below
   ser = serial.Serial('YOUR_PORT_NO', 38400, timeout=1)
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
- ## B. To store sensor data 
+ ### B. To store sensor data 
    1. Upload the ``Cubesat_SD.ino`` to the Arduino IDE.
    2. The code can be modified based on the sensor which you use.
    
- ## C. To plot live graph 
+ ### C. To plot live graph 
    1. Upload the ``Cubesat_Live_Graph.ino`` to the Arduino IDE.
    2. Run the ``Cubesat_Live_Graph.py`` in any python IDE.
- 
+
+(NOTE:-I have used dht11 sensor as a example to store data and plot live graph. You can include the sensors of your wish and modify the code)
+
 ## Acknowledgments
 
 I would like to thank Jet Aerospace Aviation Research Center for their support and contribution.

@@ -56,5 +56,5 @@ void loop() {
   }
   // if the file didn't open, print an error:
   else
-    Serial.println("error opening DHT11Log.txt");
+    Serial.println("error opening DHT11Log.txt"); 
 }

@@ -39,19 +39,27 @@ The prerequsites are given below
  * matplotlib
  
  ### Deployment 
-  1. Connect the circuit for MPU-6050 and dht11 seperately
-  2. Connect the Arduino with Laptop/PC
-  3. Download or install all the required libraries for python and arduino
-  4. Make sure you choose the correct port and board in Arduino IDE 
-  5. Upload the ``IMU_Cubesat.ino`` to the Arduino IDE
+ ## A. To Visualize the movements  and to read sensor data 
+  1. Connect the circuit for MPU-6050 and dht11 seperately.
+  2. Connect the Arduino with Laptop/PC.
+  3. Download or install all the required libraries for python and arduino.
+  4. Make sure you choose the correct port and board in Arduino IDE.
+  5. Upload the ``IMU_Cubesat.ino`` to the Arduino IDE.
   (NOTE:- You dont need to upload the sketches to Arduino board every single time)
-  6. open the ``main.py`` in any python IDE
-  7. Go to line 10 and modify ``YOUR_PORT_NO`` to the one you selected in arduino IDE
+  6. Run the ``main.py`` in any python IDE.
+  7. Go to line 10 and modify ``YOUR_PORT_NO`` to the one you selected in arduino IDE.
   
 ```
   ser = serial.Serial('YOUR_PORT_NO', 38400, timeout=1)
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
+ ## B. To store sensor data 
+   1. Upload the ``Cubesat_SD.ino`` to the Arduino IDE.
+   2. The code can be modified based on the sensor which you use.
+   
+ ## C. To plot live graph 
+   1. Upload the ``Cubesat_Live_Graph.ino`` to the Arduino IDE.
+   2. Run the ``Cubesat_Live_Graph.py`` in any python IDE.
  
 ## Acknowledgments
 

@@ -1,6 +1,6 @@
 <img src="images/prototype1.jpg" width="180" height ="180">  <img src="images/cub.png" width="180" height ="180"> 
 
-Note:- The above pictures are the prototype 1 & 2 of the cubesat
+Note:- The above pictures are the prototype 1 & 2 of the cubesat.
 
 # CUBESAT USING ARDUINIO 
 

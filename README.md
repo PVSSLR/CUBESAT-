@@ -1,6 +1,7 @@
 # CUBESAT USING ARDUINIO 
 
-A Picosatellite is made of dimension 10cm x 10cm x 10 cm (1U CUBESAT) using arduino development board with a open source architecture. 
+
+A Picosatellite is made using arduino development board with a open source architecture. 
 
 ## Getting Started
 
@@ -39,7 +40,7 @@ The prerequsites are given below
   2. Connect the Arduino with Laptop/PC
   3. Download or install all the required libraries for python and arduino
   4. Make sure you choose the correct port and board in Arduino IDE 
-  5. Upload the arduino sketches to the Arduino IDE
+  5. Upload the ``IMU_Cubesat.ino`` to the Arduino IDE
   (NOTE:- You dont need to upload the sketches to Arduino board every single time)
   6. open the ``main.py`` in any python IDE
   7. Go to line 10 and modify ``YOUR_PORT_NO`` to the one you selected in arduino IDE
@@ -49,8 +50,6 @@ The prerequsites are given below
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
   
- ## Acknowledgments
- 
- I would like to thank Jet Aerospace Aviation Research Center
+
  
  

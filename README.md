@@ -53,7 +53,7 @@ The prerequsites are given below
   ser = serial.Serial('YOUR_PORT_NO', 38400, timeout=1)
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
- ### B. To store sensor data 
+ ### B. To store sensor data on SD card
    1. Upload the ``Cubesat_SD.ino`` to the Arduino IDE.
    2. The code can be modified based on the sensor which you use.
    

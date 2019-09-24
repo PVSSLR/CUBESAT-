@@ -1,5 +1,6 @@
+<img src="images/prototype1.jpg" width="180" height ="180">  <img src="images/cub.png" width="180" height ="180"> 
+
 # CUBESAT USING ARDUINIO 
-<img src="images/prototype1.jpg" width="150"> 
 
 A Picosatellite is made using arduino development board with a open source architecture. 
 

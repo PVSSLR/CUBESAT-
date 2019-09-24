@@ -49,6 +49,8 @@ The prerequsites are given below
   ser = serial.Serial('YOUR_PORT_NO', 38400, timeout=1)
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
+ 
+ ![](images/prototype1.jpg)
   
 
  

@@ -1,5 +1,5 @@
 # CUBESAT USING ARDUINIO 
-
+<img src="images/prototype1.jpg" width="150"> 
 
 A Picosatellite is made using arduino development board with a open source architecture. 
 
@@ -50,8 +50,7 @@ The prerequsites are given below
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
  
- ![](images/prototype1.jpg)
-  
+ 
 
  
  

@@ -1,8 +1,10 @@
 <img src="images/prototype1.jpg" width="180" height ="180">  <img src="images/cub.png" width="180" height ="180"> 
 
+Note:- The above pictures are the prototype 1 & 2 of the cubesat
+
 # CUBESAT USING ARDUINIO 
 
-A Picosatellite is made using arduino development board with a open source architecture. 
+A Picosatellite is made using arduino development board with a open source architecture. The aim of the project is to replicate the working mechanism of a cubesat. 
 
 ## Getting Started
 
@@ -51,7 +53,13 @@ The prerequsites are given below
   ser = serial.Serial('COM7', 38400, timeout=1)
  ```
  
- 
+## Acknowledgments
+
+I would like to thank Jet Aerospace Aviation Research Center for their support and contribution.
+
+### NOTE
+The codes has been taken from various online sources and have been modified. The project is only for educational purpose. I believe this could help undergraduates and beginners who are into Cubesat & Arduino.
+
 
  
  
